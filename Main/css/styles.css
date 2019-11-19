@@ -2,6 +2,7 @@ body{
   margin:0;
   text-align:center;
   font-family: 'Merriweather', serif;
+  color:#40514E;
 }
 .top-container{
   background-color: #e4f9f5;
@@ -11,29 +12,110 @@ body{
   font-family: 'Handlee', cursive;
 }
 h1{
-  margin:0;
+  margin:50px auto 50px auto;
   font-family: 'Satisfy', cursive;
+  font-size: 5.625rem;
+  color:#66BFBF;
 }
 .top-cloud{
   position:absolute;
-  top:50px;
-  right:500px;
+  top:40px;
+  right:450px;
 }
 .bottom-cloud{
   position:absolute;
-  left:500px;
+  left:450px;
+  bottom:350px;
 }
 .skill-pic{
-  height:500px;
-  width:500px;
+  height: 25%;
+  width:25%;
+  float:left;
+  margin:30px;
+  margin-bottom:auto;
+  border-radius:100%;
 }
 .skill-2{
-  height:500px;
-  width:500px;
+  height: 25%;
+  width:25%;
+  float:right;
+  margin:30px;
+  margin-top:auto;
+  border-radius:100%;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size:	2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding:20px;
 }
 h3{
   font-family: 'Shadows Into Light', cursive;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+.skill-row{
+  display:inline-block;
+  width:50%;
+  margin:auto;
+  margin-top:100px;
+  margin-bottom:100px;
+  text-align: left;
+  line-height:2;
+}
+.profile{
+  margin:30px;
+  display:inline-block;
+  width:50%;
+  line-height:2;
+}
+.profile-pic{
+  margin:20px;
+  border-radius:100%;
+}
+.profile-desc{
+  text-align:left;
+}
+hr{
+  border-style:none;
+  border-top: dotted;
+  border-color:#EAF6F6;
+  border-width:10px;
+  width:5%;
+  margin:50px auto;
+}
+.bottom-container{
+  background-color:#66BFBF;
+  margin-top:20px;
+  padding:20px;
+}
+.footer-text{
+  padding:10px;
+  color:#EAF6F6;
+}
+.contact-me{
+  line-height:2;
+}
+.btn{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #66BFBF;
+  background-image: linear-gradient(to top left,
+                                        rgba(0, 0, 0, .2),
+                                        rgba(0, 0, 0, .2) 30%,
+                                        rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                  inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.footer-link{
+  padding:10px;
 }
